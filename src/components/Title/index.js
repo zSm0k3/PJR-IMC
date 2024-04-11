@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export default function Title(){
     return(
         <View>
-            <Text>Quévin Willian da Silva</Text>
+            <Text>Aplicativo IMC</Text>
         </View>
     );
 }
