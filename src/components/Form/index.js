@@ -10,6 +10,10 @@ export default function Form(){
     const [imc, setIMC] = useState(null)
     const [textButton, setTextButton] = useState("Calcular IMC")
 
+    function imcCalculator (){
+        return setIMC((weight / (height * height)).toFixed(2))  
+    }
+
     return(
         <View>
             <View>
